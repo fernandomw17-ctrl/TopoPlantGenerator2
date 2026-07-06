@@ -1,0 +1,15 @@
+TopoPlantGenerator/
+│
+├── __init__.py          # Arquivo de inicialização
+├── metadata.txt         # Metadados do plugin
+├── icon.png             # Ícone do plugin
+├── main_plugin.py       # Lógica principal
+├── topo_plant_dialog.py # Interface gráfica (diálogo)
+├── topo_plant_dockwidget.py # Widget de dock (opcional)
+├── resources.qrc        # Recursos (ícones, imagens)
+├── resources.py         # Arquivo gerado pelo pyrcc5
+│
+├── /ui/                 # Arquivos .ui (interface)
+│   └── topo_plant_dialog.ui
+│
+└── /test/               # Testes (opcional)
